@@ -17,7 +17,7 @@ function Home() {
     <main>
       <section
         id="hero-section"
-        className="h-screen w-full bg-cover bg-center bg-no-repeat bg-[url('/images/bg-img2.jpg')]"
+        className="h-screen w-full bg-cover bg-right lg:bg-center bg-no-repeat bg-[url('/images/bg-img2.jpg')]"
       >
         <div className="relative z-10 flex items-center h-full container mx-auto px-4">
           <div className="max-w-full lg:max-w-[555px] mt-20">

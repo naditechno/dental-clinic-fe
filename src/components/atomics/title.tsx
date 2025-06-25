@@ -23,7 +23,7 @@ const getTitleStyle = (section: string) => {
 const getSubtitleStyle = (section: string) => {
   switch (section) {
     case "hero":
-      return "hidden lg:inline-block text-base sm:text-lg leading-7 sm:leading-8 text-secondary";
+      return "inline-block text-base sm:text-lg leading-7 sm:leading-8 text-secondary";
     case "header":
       return "text-xs sm:text-sm leading-[18px] sm:leading-[21px] text-subtitle";
     case "categories":
@@ -54,7 +54,7 @@ function Title({
 }) {
   return (
     <div data-reverse={reverse} className='flex data-[reverse=false]:flex-col data-[reverse=true]:flex-col-reverse data-[reverse=true]:text-right'>
-      <h1 className={`font-bold text-secondary ${getTitleStyle(section)}`}>
+      <h1 className={`font-bold text-primary ${getTitleStyle(section)}`}>
         { title }  
       </h1>
       <h2 className={getSubtitleStyle(section)}>
