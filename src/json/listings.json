@@ -1,0 +1,88 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "title": "Teeth Whitening",
+      "slug": "teeth-whitening",
+      "description": "Brighten your smile safely and effectively with our professional whitening treatment.",
+      "address": "Dental Clinic, 123 Smile Avenue, Jakarta",
+      "duration_minutes": 45,
+      "doctor": "Dr. Anisa Wijaya",
+      "price": 500000,
+      "attachments": ["/images/teeth-whitening.jpg"],
+      "benefits": [
+        "Safe procedure",
+        "Instant result",
+        "Long-lasting brightness"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Dental Implants",
+      "slug": "dental-implants",
+      "description": "Replace missing teeth with natural-looking, permanent dental implants.",
+      "address": "Dental Clinic, 123 Smile Avenue, Jakarta",
+      "duration_minutes": 90,
+      "doctor": "Dr. Budi Santoso",
+      "price": 7500000,
+      "attachments": ["/images/implants.jpg"],
+      "benefits": ["Permanent solution", "Improved chewing", "Aesthetic look"]
+    },
+    {
+      "id": 3,
+      "title": "Orthodontic Braces",
+      "slug": "orthodontic-braces",
+      "description": "Straighten your teeth and improve bite alignment with braces.",
+      "address": "Dental Clinic, 123 Smile Avenue, Jakarta",
+      "duration_minutes": 60,
+      "doctor": "Dr. Lestari Putri",
+      "price": 10000000,
+      "attachments": ["/images/braces.jpg"],
+      "benefits": [
+        "Better alignment",
+        "Improved oral health",
+        "Boosted confidence"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Pediatric Dentistry",
+      "slug": "pediatric-dentistry",
+      "description": "Gentle dental care specially tailored for children.",
+      "address": "Dental Clinic, 123 Smile Avenue, Jakarta",
+      "duration_minutes": 30,
+      "doctor": "Dr. Fajar Hadi",
+      "price": 250000,
+      "attachments": ["/images/kids-dental.jpg"],
+      "benefits": [
+        "Child-friendly care",
+        "Stress-free visits",
+        "Preventive education"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Root Canal Treatment",
+      "slug": "root-canal-treatment",
+      "description": "Relieve tooth pain by treating the infected pulp and saving your tooth.",
+      "address": "Dental Clinic, 123 Smile Avenue, Jakarta",
+      "duration_minutes": 75,
+      "doctor": "Dr. Maya Rahma",
+      "price": 850000,
+      "attachments": ["/images/root-canal.jpg"],
+      "benefits": ["Pain relief", "Tooth preservation", "Advanced equipment"]
+    },
+    {
+      "id": 6,
+      "title": "Tooth Extraction",
+      "slug": "tooth-extraction",
+      "description": "Safe and clean tooth removal by experienced dental surgeons.",
+      "address": "Dental Clinic, 123 Smile Avenue, Jakarta",
+      "duration_minutes": 40,
+      "doctor": "Dr. Andi Mahendra",
+      "price": 300000,
+      "attachments": ["/images/extraction.jpg"],
+      "benefits": ["Quick recovery", "Minimal discomfort", "Expert procedure"]
+    }
+  ]
+}
