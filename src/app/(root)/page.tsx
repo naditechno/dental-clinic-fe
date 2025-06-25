@@ -26,14 +26,6 @@ function Home() {
               subtitle="Comfortable dental care at a great price, always here when you need a confident smile."
               section="hero"
             />
-            <div className="pt-[20px] lg:pt-[30px] flex items-center">
-              <div className="grow">
-                <Input placeholder="Search by doctor name..." variant="hero" />
-              </div>
-              <Button variant="default" size="hero">
-                Explore
-              </Button>
-            </div>
           </div>
         </div>
       </section>

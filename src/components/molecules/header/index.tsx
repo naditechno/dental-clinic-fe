@@ -36,36 +36,16 @@ function Header() {
               <Link href="/">Home</Link>
             </li>
             <li className="cursor-pointer font-semibold leading-6 hover:text-primary">
-              <Link href="#categories-section">Categories</Link>
+              <Link href="#categories-section">Dental Services</Link>
             </li>
             <li className="cursor-pointer font-semibold leading-6 hover:text-primary">
-              <Link href="#benefits-section">Benefit</Link>
+              <Link href="#benefits-section">Our Services</Link>
             </li>
             <li className="cursor-pointer font-semibold leading-6 hover:text-primary">
               <Link href="#review-section">Testimonials</Link>
             </li>
           </ul>
         </nav>
-
-        {/* <div
-          data-login={!!session?.user}
-          className="data-[login=true]:hidden data-[login=false]:flex items-center space-x-2 md:space-x-3"
-        >
-          <Button
-            variant="secondary"
-            size="header"
-            className="px-4 py-2 text-sm md:px-6 md:py-3 md:text-base"
-          >
-            <Link href="/sign-in">Sign In</Link>
-          </Button>
-          <Button
-            variant="default"
-            size="header"
-            className="shadow-button px-4 py-2 text-sm md:px-6 md:py-3 md:text-base"
-          >
-            <Link href="/sign-up">Sign Up</Link>
-          </Button>
-        </div> */}
 
         <DropdownMenu>
           <DropdownMenuTrigger

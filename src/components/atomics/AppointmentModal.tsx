@@ -13,7 +13,7 @@ const AppointmentModal: React.FC<AppointmentModalProps> = ({
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-60">
+    <div className="fixed inset-0 z-40 flex items-center justify-center bg-black bg-opacity-60">
       <div className="bg-white rounded-xl p-6 w-full max-w-md shadow-lg">
         <h2 className="text-2xl font-bold mb-4 text-center">
           Book Appointment
